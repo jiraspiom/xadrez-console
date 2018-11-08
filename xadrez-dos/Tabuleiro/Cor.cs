@@ -2,9 +2,9 @@
 {
     enum Cor
     {
-        Preto,
-        Branco,
-        Amarelo,
+        Preta,
+        Branca,
+        Amarela,
         Azul
     }
 }
