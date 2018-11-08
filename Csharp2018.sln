@@ -1,7 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xadrez-dos", "xadrez-dos\xadrez-dos.csproj", "{D67980BA-2CFD-4263-BC94-E91C8DB3CBA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cSharp2018", "cSharp2018\cSharp2018.csproj", "{79FE82BD-31E9-4B39-809C-C3CD363B4D2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cap4_proposto2", "cap4_proposto2\cap4_proposto2.csproj", "{B4B714ED-7D88-4B29-A046-E2B4BC8ECD1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +11,13 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D67980BA-2CFD-4263-BC94-E91C8DB3CBA1}.Debug|x86.ActiveCfg = Debug|x86
-		{D67980BA-2CFD-4263-BC94-E91C8DB3CBA1}.Debug|x86.Build.0 = Debug|x86
-		{D67980BA-2CFD-4263-BC94-E91C8DB3CBA1}.Release|x86.ActiveCfg = Release|x86
-		{D67980BA-2CFD-4263-BC94-E91C8DB3CBA1}.Release|x86.Build.0 = Release|x86
+		{79FE82BD-31E9-4B39-809C-C3CD363B4D2C}.Debug|x86.ActiveCfg = Debug|x86
+		{79FE82BD-31E9-4B39-809C-C3CD363B4D2C}.Debug|x86.Build.0 = Debug|x86
+		{79FE82BD-31E9-4B39-809C-C3CD363B4D2C}.Release|x86.ActiveCfg = Release|x86
+		{79FE82BD-31E9-4B39-809C-C3CD363B4D2C}.Release|x86.Build.0 = Release|x86
+		{B4B714ED-7D88-4B29-A046-E2B4BC8ECD1C}.Debug|x86.ActiveCfg = Debug|x86
+		{B4B714ED-7D88-4B29-A046-E2B4BC8ECD1C}.Debug|x86.Build.0 = Debug|x86
+		{B4B714ED-7D88-4B29-A046-E2B4BC8ECD1C}.Release|x86.ActiveCfg = Release|x86
+		{B4B714ED-7D88-4B29-A046-E2B4BC8ECD1C}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

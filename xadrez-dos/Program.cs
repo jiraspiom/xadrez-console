@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using tabuleiro;
 
 namespace xadrezdos
@@ -8,10 +8,9 @@ namespace xadrezdos
         public static void Main(string[] args)
         {
             Tabuleiro tab = new Tabuleiro(8, 8);
-            
-      
 
-            Console.ReadKey();
+            Tela.imprimirTabuleiro(tab);
+
         }
     }
 }

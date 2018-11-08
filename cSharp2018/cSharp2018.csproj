@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{D67980BA-2CFD-4263-BC94-E91C8DB3CBA1}</ProjectGuid>
+    <ProjectGuid>{79FE82BD-31E9-4B39-809C-C3CD363B4D2C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>xadrezdos</RootNamespace>
-    <AssemblyName>xadrez-dos</AssemblyName>
+    <RootNamespace>cSharp2018</RootNamespace>
+    <AssemblyName>cSharp2018</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -34,11 +34,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="tabuleiro\Cor.cs" />
-    <Compile Include="tabuleiro\Peca.cs" />
-    <Compile Include="tabuleiro\Posicao.cs" />
-    <Compile Include="tabuleiro\Tabuleiro.cs" />
-    <Compile Include="Tela.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
