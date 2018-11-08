@@ -1,14 +1,17 @@
 ﻿using System;
+using xadrezdos.Tabuleiro;
 
 namespace xadrezdos
 {
-    class MainClass
+    class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("projeto criado");
+            Posicao p;
+            p = new Posicao(2, 4);
+            Console.WriteLine(p);
+
             Console.ReadKey();
-            
         }
     }
 }
