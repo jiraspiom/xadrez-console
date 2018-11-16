@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace cSharp2018
 {
@@ -6,7 +7,14 @@ namespace cSharp2018
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("digita a data");
+
+            string nome = Console.ReadLine();
+
+            nome = nome.Insert(4, "-");
+            nome = nome.Insert(7, "-");
+
+            Console.WriteLine(nome);
         }
     }
 }

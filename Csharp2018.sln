@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cSharp2018", "cSharp2018\cS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cap4_proposto2", "cap4_proposto2\cap4_proposto2.csproj", "{B4B714ED-7D88-4B29-A046-E2B4BC8ECD1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cap7TrabalhandoArquivo", "Sessao7Trabalhandoa\cap7TrabalhandoArquivo.csproj", "{ABE59813-3A03-4966-BA2B-2645CE575AFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cap8_Interfaces", "cap8_Interfaces\cap8_Interfaces.csproj", "{470F478B-DAA4-4AC9-A364-1EC053EBDDF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,5 +23,13 @@ Global
 		{B4B714ED-7D88-4B29-A046-E2B4BC8ECD1C}.Debug|x86.Build.0 = Debug|x86
 		{B4B714ED-7D88-4B29-A046-E2B4BC8ECD1C}.Release|x86.ActiveCfg = Release|x86
 		{B4B714ED-7D88-4B29-A046-E2B4BC8ECD1C}.Release|x86.Build.0 = Release|x86
+		{ABE59813-3A03-4966-BA2B-2645CE575AFB}.Debug|x86.ActiveCfg = Debug|x86
+		{ABE59813-3A03-4966-BA2B-2645CE575AFB}.Debug|x86.Build.0 = Debug|x86
+		{ABE59813-3A03-4966-BA2B-2645CE575AFB}.Release|x86.ActiveCfg = Release|x86
+		{ABE59813-3A03-4966-BA2B-2645CE575AFB}.Release|x86.Build.0 = Release|x86
+		{470F478B-DAA4-4AC9-A364-1EC053EBDDF4}.Debug|x86.ActiveCfg = Debug|x86
+		{470F478B-DAA4-4AC9-A364-1EC053EBDDF4}.Debug|x86.Build.0 = Debug|x86
+		{470F478B-DAA4-4AC9-A364-1EC053EBDDF4}.Release|x86.ActiveCfg = Release|x86
+		{470F478B-DAA4-4AC9-A364-1EC053EBDDF4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
