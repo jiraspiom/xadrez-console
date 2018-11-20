@@ -36,9 +36,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entidades\Contrato.cs" />
     <Compile Include="Entidades\Parcela.cs" />
+    <Compile Include="Servico\IOnlinePagamentoServico.cs" />
+    <Compile Include="Servico\ContratoServico.cs" />
+    <Compile Include="Servico\PayPalServico.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entidades\" />
+    <Folder Include="Servico\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
